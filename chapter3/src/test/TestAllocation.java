@@ -22,6 +22,10 @@ package test;
  *   使用  java -XX:+PrintCommandLineFlags -version  命令打印出机器上JVM的各项配置参数，
  *   可以看到 -XX:+UseParallelGC  对于JRE1.7和JRE1.8都是这样，说明它们使用的是Parallel Scavenge和Parallel  Old这
  *   两种GC的组合。（在Server VM模式下）
+ *
+ *   而在JRE1.6. （client模式）环境下测试，使用的是serial/serial old组合。
+ *   GC输出日志如下：
+ *
  */
 public class TestAllocation {
     public static void main(String[] args) {
