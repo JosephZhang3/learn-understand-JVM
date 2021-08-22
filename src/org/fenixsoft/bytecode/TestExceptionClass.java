@@ -1,4 +1,4 @@
-package org.fenixsoft.clazz;
+package org.fenixsoft.bytecode;
 
 public class TestExceptionClass {
     private int m = 3;
@@ -62,7 +62,7 @@ public class TestExceptionClass {
             3       7     1     x   I
            11      10     2     e   Ljava/lang/Exception;
            14       7     1     x   I
-            0      29     0  this   Lorg/fenixsoft/clazz/TestExceptionClass;
+            0      29     0  this   Lorg/fenixsoft/bytecode/TestExceptionClass;
            26       3     1     x   I
     */
 

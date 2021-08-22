@@ -1,4 +1,4 @@
-package org.fenixsoft.clazz;
+package org.fenixsoft.bytecode;
 
 public class TestClass {
     private int m;
